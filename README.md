@@ -4,8 +4,8 @@
 
 ## Домашние задания
 
-- `python-basics/` — первое ДЗ: пять заданий по основам Python (представлено отдельным Pull Request).
-- `python-functions/` — второе ДЗ: обработка CSV-файла и отчёты по сотрудникам.
+- `python-basics/` - первое ДЗ: пять заданий по основам Python (представлено отдельным Pull Request).
+- `python-functions/` - второе ДЗ: обработка CSV-файла и отчёты по сотрудникам.
 
 ## Требования
 
@@ -13,21 +13,12 @@
 
 ## ДЗ 2 — функции и отчёты
 
-сначала перейдите в каталог второго задания:
+## Запуск
+
+Из корня репозитория:
 
 ```bash
-cd python-functions
-python hw_functions.py 1
+python python-functions/hw_functions.py
 ```
 
-Вместо `1` можно выбрать `2` или `3`:
-
-| Команда | Результат |
-| --- | --- |
-| `python hw_functions.py 1` | Список департаментов и отделов |
-| `python hw_functions.py 2` | Число сотрудников, минимальный, максимальный и средний оклад по департаментам |
-| `python hw_functions.py 3` | Создание файла `department_summary.csv` со сводными данными |
-
-на Windows используйте `py` вместо `python`.
-
-файл `department_summary.csv` исключён через `.gitignore`.
+Программа выведет меню с пунктами 1, 2 и 3. Выберите номер и нажмите Enter. `Corp_Summary.csv` должен находиться рядом со скриптом. Пункт 3 создаёт `python-functions/department_summary.csv`, этот файл добавлен в `.gitignore`.
